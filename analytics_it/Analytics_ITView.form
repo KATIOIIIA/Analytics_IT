@@ -1,0 +1,2412 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="mainPanelFocusGained"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="dataPanel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="dataPanel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="dataPanel">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="tabs" min="-2" pref="690" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="22" max="32767" attributes="0"/>
+                      <Component id="tabs" min="-2" pref="547" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JTabbedPane" name="tabs">
+              <Properties>
+                <Property name="tabLayoutPolicy" type="int" value="1"/>
+                <Property name="tabPlacement" type="int" value="2"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.RADVisualComponent$AccessibleParentEditor">
+                  <ComponentRef name="dataPanel"/>
+                </Property>
+              </AccessibilityProperties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="inputPanel">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x418;&#x441;&#x445;&#x43e;&#x434;&#x43d;&#x44b;&#x435; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x435;">
+                        <Property name="tabTitle" type="java.lang.String" resourceKey="inputPanel.TabConstraints.tabTitle"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="90" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanel6">
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="userContLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="userCountTextField" min="-2" pref="51" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="userContLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="periodFinancialLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="periodFinancialFormattedTextField" min="-2" pref="51" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="periodFinancialLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="discountRateLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="discountRateFormattedTextField" min="-2" pref="51" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="discountRateLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="aggCoastContractorLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="aggCoastContractorFormattedTextField" min="-2" pref="88" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="aggCoastContractorLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="workDaysCountLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="workDaysCountFormattedTextField" min="-2" pref="76" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="workDaysCountButton" min="-2" pref="25" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="workDaysCountLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="annualСostLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="annualСostFormattedTextField" min="-2" pref="83" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="annualСostLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="aggCoastSoftwareLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="aggCoastSoftwareLabelFormattedTextField" min="-2" pref="88" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="aggCoastSoftwareLabelLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="coastWorkContractorLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="coastWorkContractorFormattedTextField" min="-2" pref="51" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="coastWorkContractorLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="coastHarwareLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="coastHarwareFormattedTextField" min="-2" pref="88" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="coastHarwareLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="coastEducationLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="coastEducationFormattedTextField" min="-2" pref="88" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="coastEducationLabelP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="coastUserHourLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="coastUserHourFormattedTextField" min="-2" pref="88" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="coastSoftwareLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="coastSoftwareFormattedTextField" min="-2" pref="88" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="coastSoftwareLabelP" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="coastUserHourLabe" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="170" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="periodFinancialLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="periodFinancialFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="periodFinancialLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="discountRateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="discountRateFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="discountRateLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="userContLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="userCountTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="userContLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="workDaysCountFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workDaysCountButton" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="workDaysCountLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workDaysCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="coastUserHourLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastUserHourFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastUserHourLabe" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="annualСostLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="annualСostFormattedTextField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="annualСostLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="coastSoftwareLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastSoftwareFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastSoftwareLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="aggCoastSoftwareLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="aggCoastSoftwareLabelLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="aggCoastSoftwareLabelFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="coastWorkContractorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastWorkContractorFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastWorkContractorLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="aggCoastContractorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="aggCoastContractorFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="aggCoastContractorLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="coastHarwareLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastHarwareLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastHarwareFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="coastEducationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastEducationLabelP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="coastEducationFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="periodFinancialLabelP">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="periodFinancialFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format subtype="1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="periodFinancialFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialFormattedTextField.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="userContLabelP">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="userContLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="userContLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="userCountTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format subtype="1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="userCountTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="userCountTextField.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="periodFinancialLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="discountRateLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="discountRateLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="discountRateLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="discountRateFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format subtype="1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="discountRateFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="discountRateFormattedTextField.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="discountRateLabelP">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="discountRateLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="discountRateLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="userContLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="userContLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="userContLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="aggCoastContractorLabel">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="aggCoastContractorLabel.font"/>
+                            <Property name="text" type="java.lang.String" resourceKey="aggCoastContractorLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="aggCoastContractorLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="aggCoastContractorFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format format="#0.00" subtype="-1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="aggCoastContractorFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="aggCoastContractorFormattedTextField.toolTipText"/>
+                            <Property name="enabled" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastWorkContractorLabelP">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastWorkContractorLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastWorkContractorLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="coastHarwareFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format format="#0.00" subtype="-1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="coastHarwareFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastHarwareFormattedTextField.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastHarwareLabelP">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastHarwareLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastHarwareLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="aggCoastContractorLabelP">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="aggCoastContractorLabelP.font"/>
+                            <Property name="text" type="java.lang.String" resourceKey="aggCoastContractorLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="aggCoastContractorLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastHarwareLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastHarwareLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastHarwareLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastEducationLabelP">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastEducationLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastEducationLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workDaysCountLabelP">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="workDaysCountLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="workDaysCountLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="workDaysCountButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="workDaysCountButton.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="workDaysCountButton.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastEducationLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastEducationLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastEducationLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="coastUserHourFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format format="#0.00" subtype="-1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="coastUserHourFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourFormattedTextField.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="coastEducationFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format format="#0.00" subtype="-1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="coastEducationFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastEducationFormattedTextField.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastUserHourLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastUserHourLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="workDaysCountFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format subtype="1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="workDaysCountFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="workDaysCountFormattedTextField.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workDaysCountLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="workDaysCountLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="workDaysCountLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastUserHourLabe">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastUserHourLabe.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourLabe.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="annual&#x421;ostLabel">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="annual&#x421;ostLabel.font"/>
+                            <Property name="text" type="java.lang.String" resourceKey="annual&#x421;ostLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="annual&#x421;ostLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastSoftwareLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastSoftwareLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastSoftwareLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="coastSoftwareFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format format="#0.00" subtype="-1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="coastSoftwareFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastSoftwareFormattedTextField.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastSoftwareLabelP">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastSoftwareLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastSoftwareLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="aggCoastSoftwareLabel">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="aggCoastSoftwareLabel.font"/>
+                            <Property name="text" type="java.lang.String" resourceKey="aggCoastSoftwareLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="aggCoastSoftwareLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="annual&#x421;ostFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format format="#0.00" subtype="-1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="annual&#x421;ostFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="annual&#x421;ostFormattedTextField.toolTipText"/>
+                            <Property name="enabled" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="annual&#x421;ostLabelP">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="annual&#x421;ostLabelP.font"/>
+                            <Property name="text" type="java.lang.String" resourceKey="annual&#x421;ostLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="annual&#x421;ostLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="aggCoastSoftwareLabelFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format format="#0.00" subtype="-1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="aggCoastSoftwareLabelFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="aggCoastSoftwareLabelFormattedTextField.toolTipText"/>
+                            <Property name="enabled" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="aggCoastSoftwareLabelLabelP">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="aggCoastSoftwareLabelLabelP.font"/>
+                            <Property name="text" type="java.lang.String" resourceKey="aggCoastSoftwareLabelLabelP.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="aggCoastSoftwareLabelLabelP.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="coastWorkContractorLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="coastWorkContractorLabel.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastWorkContractorLabel.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="coastWorkContractorFormattedTextField">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format subtype="1" type="0"/>
+                            </Property>
+                            <Property name="horizontalAlignment" type="int" value="4"/>
+                            <Property name="text" type="java.lang.String" resourceKey="coastWorkContractorFormattedTextField.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="coastWorkContractorFormattedTextField.toolTipText"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel5">
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="periodFinancialLabel1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="periodFinancialLabel6" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="periodFinancialLabel12" alignment="1" pref="524" max="32767" attributes="0"/>
+                                      <Component id="periodFinancialLabel13" alignment="0" pref="524" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="periodFinancialLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="periodFinancialLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="24" max="32767" attributes="0"/>
+                                  <Component id="periodFinancialLabel13" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="periodFinancialLabel12" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="periodFinancialLabel6">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="periodFinancialLabel6.font"/>
+                            <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel6.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel6.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="periodFinancialLabel1">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="periodFinancialLabel6.font"/>
+                            <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel1.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel1.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="periodFinancialLabel12">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="periodFinancialLabel12.font"/>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel12.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel12.toolTipText"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="periodFinancialLabel13">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" resourceKey="periodFinancialLabel13.font"/>
+                            <Property name="horizontalAlignment" type="int" value="0"/>
+                            <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel13.text"/>
+                            <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel13.toolTipText"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="costsPanel">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x417;&#x430;&#x442;&#x440;&#x430;&#x442;&#x44b;">
+                        <Property name="tabTitle" type="java.lang.String" resourceKey="costsPanel.TabConstraints.tabTitle"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="costsYearScrollPane" alignment="0" pref="544" max="32767" attributes="1"/>
+                                  <Component id="jScrollPane1" alignment="0" pref="544" max="32767" attributes="1"/>
+                                  <Component id="costsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="costsPane" alignment="0" pref="544" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="104" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="costsYearScrollPane" min="-2" pref="137" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="costsLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="costsPane" min="-2" pref="145" max="-2" attributes="0"/>
+                              <EmptySpace pref="113" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="costsYearScrollPane">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="costsYearTable">
+                          <Properties>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                              <Table columnCount="5" rowCount="5">
+                                <Column editable="false" title="&#x41f;&#x43e;&#x43a;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43b;&#x44c; &#x437;&#x430;&#x442;&#x440;&#x430;&#x442;" type="java.lang.String">
+                                  <Data value="&#x421;&#x442;&#x43e;&#x438;&#x43c;&#x43e;&#x441;&#x442;&#x44c; &#x43b;&#x438;&#x446;&#x435;&#x43d;&#x437;&#x438;&#x438;, &#x43f;&#x43e;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43a;&#x438;"/>
+                                  <Data value="&#x412;&#x43d;&#x435;&#x434;&#x440;&#x435;&#x43d;&#x438;&#x435; &#x441;&#x438;&#x43b;&#x430;&#x43c;&#x438; &#x418;&#x422;"/>
+                                  <Data value="&#x412;&#x43d;&#x435;&#x448;&#x43d;&#x438;&#x435; &#x43f;&#x43e;&#x434;&#x440;&#x44f;&#x434;&#x447;&#x438;&#x43a;&#x438;"/>
+                                  <Data value="&#x41e;&#x431;&#x43e;&#x440;&#x443;&#x434;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;"/>
+                                  <Data value="&#x41e;&#x431;&#x443;&#x447;&#x435;&#x43d;&#x438;&#x435;"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 0" type="java.lang.Float">
+                                  <Data value="0.0"/>
+                                  <Data value="28000.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 1" type="java.lang.Float">
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 2" type="java.lang.Float">
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 3" type="java.lang.Float">
+                                  <Data value="null"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                </Column>
+                              </Table>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JLabel" name="costsLabel">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="costsLabel.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="costsLabel.text"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="costsPane">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="costsTable">
+                          <Properties>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                              <Table columnCount="3" rowCount="5">
+                                <Column editable="false" title="&#x41f;&#x43e;&#x43a;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43b;&#x44c; &#x437;&#x430;&#x442;&#x440;&#x430;&#x442;" type="java.lang.String">
+                                  <Data value="&#x421;&#x442;&#x43e;&#x438;&#x43c;&#x43e;&#x441;&#x442;&#x44c; &#x43b;&#x438;&#x446;&#x435;&#x43d;&#x437;&#x438;&#x438;, &#x43f;&#x43e;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43a;&#x438;"/>
+                                  <Data value="&#x412;&#x43d;&#x435;&#x434;&#x440;&#x435;&#x43d;&#x438;&#x435; &#x441;&#x438;&#x43b;&#x430;&#x43c;&#x438; &#x418;&#x422;"/>
+                                  <Data value="&#x412;&#x43d;&#x435;&#x448;&#x43d;&#x438;&#x435; &#x43f;&#x43e;&#x434;&#x440;&#x44f;&#x434;&#x447;&#x438;&#x43a;&#x438;"/>
+                                  <Data value="&#x41e;&#x431;&#x43e;&#x440;&#x443;&#x434;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;"/>
+                                  <Data value="&#x41e;&#x431;&#x443;&#x447;&#x435;&#x43d;&#x438;&#x435;"/>
+                                </Column>
+                                <Column editable="true" title="&#x418;&#x442;&#x43e;&#x433;&#x43e;" type="java.lang.Float">
+                                  <Data value="0.0"/>
+                                  <Data value="28000.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="null"/>
+                                </Column>
+                                <Column editable="true" title="Present value" type="java.lang.Float">
+                                  <Data value="0.0"/>
+                                  <Data value="28000.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                </Column>
+                              </Table>
+                            </Property>
+                            <Property name="enabled" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextPane" name="jTextPane1">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="null"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="jTextPane1.text"/>
+                            <Property name="opaque" type="boolean" value="false"/>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[959, 28]"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="valuePanel">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x44b;">
+                        <Property name="tabTitle" type="java.lang.String" resourceKey="valuePanel.TabConstraints.tabTitle"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout"/>
+                  <SubComponents>
+                    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="0" gridY="0" gridWidth="1" gridHeight="1" fill="1" ipadX="10" ipadY="10" insetsTop="11" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="0.0" weightY="60.0"/>
+                        </Constraint>
+                      </Constraints>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+                      <SubComponents>
+                        <Container class="javax.swing.JPanel" name="jPanel1">
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                              <JTabbedPaneConstraints tabName="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x44b; &#x43e;&#x442; &#x43e;&#x442;&#x43a;&#x430;&#x437;&#x430;">
+                                <Property name="tabTitle" type="java.lang.String" resourceKey="jPanel1.TabConstraints.tabTitle"/>
+                              </JTabbedPaneConstraints>
+                            </Constraint>
+                          </Constraints>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout"/>
+                          <SubComponents>
+                            <Container class="javax.swing.JToolBar" name="jToolBar3">
+                              <Properties>
+                                <Property name="rollover" type="boolean" value="true"/>
+                              </Properties>
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                                  <GridBagConstraints gridX="0" gridY="0" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="0" insetsRight="10" anchor="10" weightX="0.0" weightY="0.0"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JButton" name="jButton11">
+                                  <Properties>
+                                    <Property name="icon" type="javax.swing.Icon" resourceKey="jButton11.icon"/>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                                    <Property name="verticalTextPosition" type="int" value="3"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="jButton12">
+                                  <Properties>
+                                    <Property name="icon" type="javax.swing.Icon" resourceKey="jButton12.icon"/>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                                    <Property name="verticalTextPosition" type="int" value="3"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="jButton13">
+                                  <Properties>
+                                    <Property name="icon" type="javax.swing.Icon" resourceKey="jButton13.icon"/>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                                    <Property name="verticalTextPosition" type="int" value="3"/>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Container class="javax.swing.JPanel" name="jPanel2">
+                              <Properties>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                                    <BevelBorder/>
+                                  </Border>
+                                </Property>
+                              </Properties>
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                                  <GridBagConstraints gridX="0" gridY="2" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="0.0" weightY="0.0"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout>
+                                <DimensionLayout dim="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="periodFinancialLabel3" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jTextField1" pref="371" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="periodFinancialLabel2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="periodFinancialFormattedTextField1" min="-2" pref="50" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="periodFinancialLabelP1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="1">
+                                                          <Component id="periodFinancialLabel5" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="coastUserHourFormattedTextField2" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="periodFinancialLabel4" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="coastUserHourFormattedTextField1" min="-2" pref="82" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="coastUserHourLabe2" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="coastUserHourLabe1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                                <DimensionLayout dim="1">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="periodFinancialLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="periodFinancialLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="periodFinancialFormattedTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="periodFinancialLabelP1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="periodFinancialLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="coastUserHourFormattedTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="coastUserHourLabe1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="periodFinancialLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="coastUserHourFormattedTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="coastUserHourLabe2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                              </Layout>
+                              <SubComponents>
+                                <Component class="javax.swing.JLabel" name="coastUserHourLabe1">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="coastUserHourLabe1.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourLabe1.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="coastUserHourLabe2">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="coastUserHourLabe2.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourLabe2.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JFormattedTextField" name="coastUserHourFormattedTextField1">
+                                  <Properties>
+                                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                                      <Format format="#0.00" subtype="-1" type="0"/>
+                                    </Property>
+                                    <Property name="horizontalAlignment" type="int" value="4"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="coastUserHourFormattedTextField1.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourFormattedTextField1.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabel5">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel5.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel5.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabel2">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel2.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel2.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JFormattedTextField" name="coastUserHourFormattedTextField2">
+                                  <Properties>
+                                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                                      <Format format="#0.00" subtype="-1" type="0"/>
+                                    </Property>
+                                    <Property name="horizontalAlignment" type="int" value="4"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="coastUserHourFormattedTextField2.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourFormattedTextField2.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabel3">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel3.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel3.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabelP1">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabelP1.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabelP1.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="jButton5">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="jButton5.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JFormattedTextField" name="periodFinancialFormattedTextField1">
+                                  <Properties>
+                                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                                      <Format subtype="1" type="0"/>
+                                    </Property>
+                                    <Property name="horizontalAlignment" type="int" value="4"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialFormattedTextField1.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialFormattedTextField1.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabel4">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel4.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel4.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="jButton4">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="jButton4.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JTextField" name="jTextField1">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="jTextField1.text"/>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Container class="javax.swing.JScrollPane" name="costsYearScrollPane1">
+                              <AuxValues>
+                                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                              </AuxValues>
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                                  <GridBagConstraints gridX="0" gridY="1" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="0" insetsRight="10" anchor="10" weightX="100.0" weightY="100.0"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JTable" name="costsYearTable1">
+                                  <Properties>
+                                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                      <Table columnCount="2" rowCount="2">
+                                        <Column editable="true" title="&#x41d;&#x430;&#x438;&#x43c;&#x435;&#x43d;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;" type="java.lang.Object">
+                                          <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x43e;&#x442;&#x43a;&#x430;&#x437;&#x430; &#x43f;&#x440;&#x438;&#x43e;&#x431;&#x440;&#x435;&#x442;&#x435;&#x43d;&#x438;&#x44f; &#x431;&#x438;&#x431;&#x43b;&#x438;&#x43e;&#x442;&#x435;&#x43a;&#x438; &#x43a;&#x43e;&#x43c;&#x43f;&#x43e;&#x43d;&#x435;&#x43d;&#x442;&#x43e;&#x432;  FIBPlus &#x434;&#x43b;&#x44f; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b; &#x441; &#x411;&#x414; FireBird"/>
+                                          <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x43e;&#x442;&#x43a;&#x430;&#x437;&#x430; &#x43f;&#x440;&#x438;&#x43e;&#x431;&#x440;&#x435;&#x442;&#x435;&#x43d;&#x438;&#x44f; &#x434;&#x43e;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x435;&#x43b;&#x44c;&#x43d;&#x43e;&#x433;&#x43e; &#x41f;&#x41e; &#x434;&#x43b;&#x44f; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b; &#x441; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;&#x43e;&#x43c; &#x43f;&#x435;&#x447;&#x430;&#x442;&#x43d;&#x44b;&#x445; &#x444;&#x43e;&#x440;&#x43c; (&#x432; Delphi - FastReport) "/>
+                                        </Column>
+                                        <Column editable="false" title="&#x41f;&#x43e;&#x43b;&#x43d;&#x430;&#x44f; &#x432;&#x44b;&#x433;&#x43e;&#x434;&#x430;" type="java.lang.Float">
+                                          <Data value="74025.0"/>
+                                          <Data value="95760.0"/>
+                                        </Column>
+                                      </Table>
+                                    </Property>
+                                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                                      <Dimension value="[30, 132]"/>
+                                    </Property>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel3">
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                              <JTabbedPaneConstraints tabName="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x44b; &#x43e;&#x442; &#x438;&#x441;&#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f;">
+                                <Property name="tabTitle" type="java.lang.String" resourceKey="jPanel3.TabConstraints.tabTitle"/>
+                              </JTabbedPaneConstraints>
+                            </Constraint>
+                          </Constraints>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout"/>
+                          <SubComponents>
+                            <Container class="javax.swing.JScrollPane" name="costsYearScrollPane2">
+                              <AuxValues>
+                                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                              </AuxValues>
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                                  <GridBagConstraints gridX="0" gridY="1" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="0" insetsRight="10" anchor="10" weightX="100.0" weightY="100.0"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JTable" name="costsYearTable2">
+                                  <Properties>
+                                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                      <Table columnCount="2" rowCount="1">
+                                        <Column editable="true" title="&#x41d;&#x430;&#x438;&#x43c;&#x435;&#x43d;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;" type="java.lang.Object">
+                                          <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x438;&#x441;&#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f; &#x441;&#x432;&#x43e;&#x439;&#x441;&#x442;&#x432;&#x430; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;&#x430; &quot;&#x43f;&#x43e;&#x434;&#x441;&#x432;&#x435;&#x442;&#x43a;&#x430; &#x441;&#x43b;&#x43e;&#x432;&#x430; &#x43f;&#x43e;&#x434; &#x43a;&#x443;&#x440;&#x441;&#x43e;&#x440;&#x43e;&#x43c;&quot;"/>
+                                        </Column>
+                                        <Column editable="false" title="&#x41f;&#x43e;&#x43b;&#x43d;&#x430;&#x44f; &#x432;&#x44b;&#x433;&#x43e;&#x434;&#x430;" type="java.lang.Float">
+                                          <Data value="9855.0"/>
+                                        </Column>
+                                      </Table>
+                                    </Property>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Container class="javax.swing.JToolBar" name="jToolBar2">
+                              <Properties>
+                                <Property name="rollover" type="boolean" value="true"/>
+                              </Properties>
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                                  <GridBagConstraints gridX="0" gridY="0" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="0" insetsRight="10" anchor="10" weightX="0.0" weightY="0.0"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JButton" name="jButton6">
+                                  <Properties>
+                                    <Property name="icon" type="javax.swing.Icon" resourceKey="jButton6.icon"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="jButton6.text"/>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                                    <Property name="verticalTextPosition" type="int" value="3"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="jButton7">
+                                  <Properties>
+                                    <Property name="icon" type="javax.swing.Icon" resourceKey="jButton7.icon"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="jButton7.text"/>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                                    <Property name="verticalTextPosition" type="int" value="3"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="jButton8">
+                                  <Properties>
+                                    <Property name="icon" type="javax.swing.Icon" resourceKey="jButton8.icon"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="jButton8.text"/>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                                    <Property name="verticalTextPosition" type="int" value="3"/>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Container class="javax.swing.JPanel" name="jPanel4">
+                              <Properties>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                                    <BevelBorder/>
+                                  </Border>
+                                </Property>
+                              </Properties>
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                                  <GridBagConstraints gridX="0" gridY="2" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="10" weightX="0.0" weightY="0.0"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout>
+                                <DimensionLayout dim="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="periodFinancialLabel11" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="coastUserHourFormattedTextField4" min="-2" pref="32" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="coastUserHourLabe4" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="periodFinancialLabel9" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jTextField2" pref="371" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="periodFinancialLabel8" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="periodFinancialFormattedTextField2" min="-2" pref="50" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="periodFinancialLabelP2" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="periodFinancialLabel10" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="coastUserHourFormattedTextField3" min="-2" pref="34" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="coastUserHourLabe3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jButton9" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jButton10" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                                <DimensionLayout dim="1">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="periodFinancialLabel9" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                                              <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="periodFinancialLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="periodFinancialFormattedTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="periodFinancialLabelP2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="periodFinancialLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="coastUserHourFormattedTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="coastUserHourLabe3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="periodFinancialLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="coastUserHourFormattedTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="coastUserHourLabe4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jButton9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jButton10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                              </Layout>
+                              <SubComponents>
+                                <Component class="javax.swing.JLabel" name="coastUserHourLabe3">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="coastUserHourLabe3.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourLabe3.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JFormattedTextField" name="coastUserHourFormattedTextField3">
+                                  <Properties>
+                                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                                      <Format format="#0.00" subtype="-1" type="0"/>
+                                    </Property>
+                                    <Property name="horizontalAlignment" type="int" value="4"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="coastUserHourFormattedTextField3.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourFormattedTextField3.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabel8">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel8.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel8.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabel9">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel9.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel9.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabelP2">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabelP2.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabelP2.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="jButton9">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="jButton9.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JFormattedTextField" name="periodFinancialFormattedTextField2">
+                                  <Properties>
+                                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                                      <Format subtype="1" type="0"/>
+                                    </Property>
+                                    <Property name="horizontalAlignment" type="int" value="4"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialFormattedTextField2.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialFormattedTextField2.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabel10">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel10.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel10.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="jButton10">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="jButton10.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JTextField" name="jTextField2">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="jTextField2.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="periodFinancialLabel11">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="periodFinancialLabel11.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="periodFinancialLabel11.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JFormattedTextField" name="coastUserHourFormattedTextField4">
+                                  <Properties>
+                                    <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                                      <Format format="#0.00" subtype="-1" type="0"/>
+                                    </Property>
+                                    <Property name="horizontalAlignment" type="int" value="4"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="coastUserHourFormattedTextField4.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourFormattedTextField4.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="coastUserHourLabe4">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="coastUserHourLabe4.text"/>
+                                    <Property name="toolTipText" type="java.lang.String" resourceKey="coastUserHourLabe4.toolTipText"/>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JScrollPane" name="costsYearScrollPane3">
+                      <Properties>
+                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[23, 123]"/>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="0" gridY="2" gridWidth="1" gridHeight="1" fill="2" ipadX="10" ipadY="10" insetsTop="10" insetsLeft="10" insetsBottom="10" insetsRight="10" anchor="11" weightX="0.0" weightY="90.0"/>
+                        </Constraint>
+                      </Constraints>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="costsYearTable3">
+                          <Properties>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                              <Table columnCount="6" rowCount="3">
+                                <Column editable="false" title="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430;" type="java.lang.String">
+                                  <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x43e;&#x442;&#x43a;&#x430;&#x437;&#x430; &#x43f;&#x440;&#x438;&#x43e;&#x431;&#x440;&#x435;&#x442;&#x435;&#x43d;&#x438;&#x44f; &#x431;&#x438;&#x431;&#x43b;&#x438;&#x43e;&#x442;&#x435;&#x43a;&#x438; &#x43a;&#x43e;&#x43c;&#x43f;&#x43e;&#x43d;&#x435;&#x43d;&#x442;&#x43e;&#x432;  FIBPlus &#x434;&#x43b;&#x44f; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b; &#x441; &#x411;&#x414; FireBird"/>
+                                  <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x43e;&#x442;&#x43a;&#x430;&#x437;&#x430; &#x43f;&#x440;&#x438;&#x43e;&#x431;&#x440;&#x435;&#x442;&#x435;&#x43d;&#x438;&#x44f; &#x434;&#x43e;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x435;&#x43b;&#x44c;&#x43d;&#x43e;&#x433;&#x43e; &#x41f;&#x41e; &#x434;&#x43b;&#x44f; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b; &#x441; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;&#x43e;&#x43c; &#x43f;&#x435;&#x447;&#x430;&#x442;&#x43d;&#x44b;&#x445; &#x444;&#x43e;&#x440;&#x43c; (&#x432; Delphi - FastReport) "/>
+                                  <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x438;&#x441;&#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f; &#x441;&#x432;&#x43e;&#x439;&#x441;&#x442;&#x432;&#x430; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;&#x430; &quot;&#x43f;&#x43e;&#x434;&#x441;&#x432;&#x435;&#x442;&#x43a;&#x430; &#x441;&#x43b;&#x43e;&#x432;&#x430; &#x43f;&#x43e;&#x434; &#x43a;&#x443;&#x440;&#x441;&#x43e;&#x440;&#x43e;&#x43c;&quot;"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 1" type="java.lang.Float">
+                                  <Data value="74025.0"/>
+                                  <Data value="95760.0"/>
+                                  <Data value="4927.5"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 2" type="java.lang.Float">
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="9855.0"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 3" type="java.lang.Float">
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="9855.0"/>
+                                </Column>
+                                <Column editable="true" title="&#x418;&#x442;&#x43e;&#x433;&#x43e;" type="java.lang.Float">
+                                  <Data value="74025.0"/>
+                                  <Data value="95760.0"/>
+                                  <Data value="24637.5"/>
+                                </Column>
+                                <Column editable="true" title="Present Value" type="java.lang.Float">
+                                  <Data value="64369.57"/>
+                                  <Data value="83269.57"/>
+                                  <Data value="18216.4"/>
+                                </Column>
+                              </Table>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JLabel" name="costsLabel1">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="costsLabel1.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="costsLabel1.text"/>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+                          <GridBagConstraints gridX="0" gridY="1" gridWidth="1" gridHeight="1" fill="0" ipadX="0" ipadY="0" insetsTop="6" insetsLeft="10" insetsBottom="0" insetsRight="0" anchor="17" weightX="10.0" weightY="0.0"/>
+                        </Constraint>
+                      </Constraints>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="risksPanel">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x420;&#x438;&#x441;&#x43a;&#x438;">
+                        <Property name="tabTitle" type="java.lang.String" resourceKey="risksPanel.TabConstraints.tabTitle"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="costsYearScrollPane5" alignment="0" pref="544" max="32767" attributes="1"/>
+                                  <Component id="jScrollPane2" alignment="0" pref="544" max="32767" attributes="1"/>
+                                  <Component id="costsLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="costsYearScrollPane4" alignment="0" pref="544" max="32767" attributes="1"/>
+                                  <Component id="costsLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="104" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="costsLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="costsYearScrollPane4" min="-2" pref="127" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="costsLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="costsYearScrollPane5" min="-2" pref="126" max="-2" attributes="0"/>
+                              <EmptySpace pref="118" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="costsLabel2">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="costsLabel2.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="costsLabel2.text"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="costsYearScrollPane4">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="costsYearTable4">
+                          <Properties>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                              <Table columnCount="5" rowCount="3">
+                                <Column editable="false" title="&#x41d;&#x430;&#x438;&#x43c;&#x435;&#x43d;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;" type="java.lang.String">
+                                  <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x43e;&#x442;&#x43a;&#x430;&#x437;&#x430; &#x43f;&#x440;&#x438;&#x43e;&#x431;&#x440;&#x435;&#x442;&#x435;&#x43d;&#x438;&#x44f; &#x431;&#x438;&#x431;&#x43b;&#x438;&#x43e;&#x442;&#x435;&#x43a;&#x438; &#x43a;&#x43e;&#x43c;&#x43f;&#x43e;&#x43d;&#x435;&#x43d;&#x442;&#x43e;&#x432;  FIBPlus &#x434;&#x43b;&#x44f; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b; &#x441; &#x411;&#x414; FireBird"/>
+                                  <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x43e;&#x442;&#x43a;&#x430;&#x437;&#x430; &#x43f;&#x440;&#x438;&#x43e;&#x431;&#x440;&#x435;&#x442;&#x435;&#x43d;&#x438;&#x44f; &#x434;&#x43e;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x435;&#x43b;&#x44c;&#x43d;&#x43e;&#x433;&#x43e; &#x41f;&#x41e; &#x434;&#x43b;&#x44f; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b; &#x441; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;&#x43e;&#x43c; &#x43f;&#x435;&#x447;&#x430;&#x442;&#x43d;&#x44b;&#x445; &#x444;&#x43e;&#x440;&#x43c; (&#x432; Delphi - FastReport) "/>
+                                  <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x438;&#x441;&#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f; &#x441;&#x432;&#x43e;&#x439;&#x441;&#x442;&#x432;&#x430; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;&#x430; &quot;&#x43f;&#x43e;&#x434;&#x441;&#x432;&#x435;&#x442;&#x43a;&#x430; &#x441;&#x43b;&#x43e;&#x432;&#x430; &#x43f;&#x43e;&#x434; &#x43a;&#x443;&#x440;&#x441;&#x43e;&#x440;&#x43e;&#x43c;&quot;"/>
+                                </Column>
+                                <Column editable="true" title="&#x41c;&#x438;&#x43d;&#x438;&#x43c;&#x430;&#x43b;&#x44c;&#x43d;&#x44b;&#x439; &#x443;&#x440;&#x43e;&#x432;&#x435;&#x43d;&#x44c;" type="java.lang.Float">
+                                  <Data value="80.0"/>
+                                  <Data value="80.0"/>
+                                  <Data value="70.0"/>
+                                </Column>
+                                <Column editable="true" title="&#x41d;&#x430;&#x438;&#x431;&#x43e;&#x43b;&#x435;&#x435; &#x432;&#x435;&#x440;&#x43e;&#x44f;&#x442;&#x43d;&#x44b;&#x439; &#x443;&#x440;&#x43e;&#x432;&#x435;&#x43d;&#x44c;" type="java.lang.Float">
+                                  <Data value="100.0"/>
+                                  <Data value="100.0"/>
+                                  <Data value="100.0"/>
+                                </Column>
+                                <Column editable="true" title="&#x41c;&#x430;&#x43a;&#x441;&#x438;&#x43c;&#x430;&#x43b;&#x44c;&#x43d;&#x44b;&#x439; &#x443;&#x440;&#x43e;&#x432;&#x435;&#x43d;&#x44c;" type="java.lang.Float">
+                                  <Data value="100.0"/>
+                                  <Data value="100.0"/>
+                                  <Data value="100.0"/>
+                                </Column>
+                                <Column editable="false" title="&#x420;&#x430;&#x437;&#x43c;&#x435;&#x440; &#x43f;&#x43e;&#x43f;&#x440;&#x430;&#x432;&#x43a;&#x438;" type="java.lang.Float">
+                                  <Data value="93.0"/>
+                                  <Data value="93.0"/>
+                                  <Data value="90.0"/>
+                                </Column>
+                              </Table>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JLabel" name="costsLabel3">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" resourceKey="costsLabel3.font"/>
+                        <Property name="text" type="java.lang.String" resourceKey="costsLabel3.text"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="costsYearScrollPane5">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="costsYearTable5">
+                          <Properties>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                              <Table columnCount="6" rowCount="3">
+                                <Column editable="false" title="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430;" type="java.lang.String">
+                                  <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x43e;&#x442;&#x43a;&#x430;&#x437;&#x430; &#x43f;&#x440;&#x438;&#x43e;&#x431;&#x440;&#x435;&#x442;&#x435;&#x43d;&#x438;&#x44f; &#x431;&#x438;&#x431;&#x43b;&#x438;&#x43e;&#x442;&#x435;&#x43a;&#x438; &#x43a;&#x43e;&#x43c;&#x43f;&#x43e;&#x43d;&#x435;&#x43d;&#x442;&#x43e;&#x432;  FIBPlus &#x434;&#x43b;&#x44f; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b; &#x441; &#x411;&#x414; FireBird"/>
+                                  <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x43e;&#x442;&#x43a;&#x430;&#x437;&#x430; &#x43f;&#x440;&#x438;&#x43e;&#x431;&#x440;&#x435;&#x442;&#x435;&#x43d;&#x438;&#x44f; &#x434;&#x43e;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x435;&#x43b;&#x44c;&#x43d;&#x43e;&#x433;&#x43e; &#x41f;&#x41e; &#x434;&#x43b;&#x44f; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b; &#x441; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;&#x43e;&#x43c; &#x43f;&#x435;&#x447;&#x430;&#x442;&#x43d;&#x44b;&#x445; &#x444;&#x43e;&#x440;&#x43c; (&#x432; Delphi - FastReport) "/>
+                                  <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x43e;&#x442; &#x438;&#x441;&#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f; &#x441;&#x432;&#x43e;&#x439;&#x441;&#x442;&#x432;&#x430; &#x440;&#x435;&#x434;&#x430;&#x43a;&#x442;&#x43e;&#x440;&#x430; &quot;&#x43f;&#x43e;&#x434;&#x441;&#x432;&#x435;&#x442;&#x43a;&#x430; &#x441;&#x43b;&#x43e;&#x432;&#x430; &#x43f;&#x43e;&#x434; &#x43a;&#x443;&#x440;&#x441;&#x43e;&#x440;&#x43e;&#x43c;&quot;"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 1" type="java.lang.Float">
+                                  <Data value="69090.0"/>
+                                  <Data value="89376.0"/>
+                                  <Data value="4434.75"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 2" type="java.lang.Float">
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="8869.5"/>
+                                </Column>
+                                <Column editable="true" title="&#x413;&#x43e;&#x434; 3" type="java.lang.Float">
+                                  <Data value="0.0"/>
+                                  <Data value="0.0"/>
+                                  <Data value="8869.5"/>
+                                </Column>
+                                <Column editable="true" title="&#x418;&#x442;&#x43e;&#x433;&#x43e;" type="java.lang.Float">
+                                  <Data value="69090.0"/>
+                                  <Data value="89376.0"/>
+                                  <Data value="22173.75"/>
+                                </Column>
+                                <Column editable="true" title="Present Value" type="java.lang.Float">
+                                  <Data value="60078.26"/>
+                                  <Data value="77718.26"/>
+                                  <Data value="16394.76"/>
+                                </Column>
+                              </Table>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextPane" name="jTextPane2">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="null"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" resourceKey="jTextPane2.text"/>
+                            <Property name="opaque" type="boolean" value="false"/>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[959, 28]"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="msfRisksPanel">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x423;&#x43f;&#x440;&#x430;&#x432;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x440;&#x438;&#x441;&#x43a;&#x430;&#x43c;&#x438;">
+                        <Property name="tabTitle" type="java.lang.String" resourceKey="msfRisksPanel.TabConstraints.tabTitle"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTabbedPane2" pref="544" max="32767" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jTabbedPane2" pref="520" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+                      <SubComponents>
+                        <Container class="javax.swing.JPanel" name="identifPanel">
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                              <JTabbedPaneConstraints tabName="&#x418;&#x434;&#x435;&#x43d;&#x442;&#x438;&#x444;&#x438;&#x43a;&#x430;&#x446;&#x438;&#x44f;">
+                                <Property name="tabTitle" type="java.lang.String" resourceKey="identifPanel.TabConstraints.tabTitle"/>
+                              </JTabbedPaneConstraints>
+                            </Constraint>
+                          </Constraints>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="costsYearScrollPane6" alignment="0" pref="519" max="32767" attributes="1"/>
+                                          <Component id="jToolBar4" alignment="0" pref="519" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jToolBar4" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="costsYearScrollPane6" pref="439" max="32767" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Container class="javax.swing.JScrollPane" name="costsYearScrollPane6">
+                              <AuxValues>
+                                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                              </AuxValues>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JTable" name="costsYearTable6">
+                                  <Properties>
+                                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                      <Table columnCount="2" rowCount="11">
+                                        <Column editable="true" title="&#x41d;&#x430;&#x438;&#x43c;&#x435;&#x43d;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;" type="java.lang.Object">
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43d;&#x435;&#x434;&#x43e;&#x441;&#x442;&#x430;&#x442;&#x43e;&#x447;&#x43d;&#x43e;&#x433;&#x43e; &#x43a;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x430; &#x43f;&#x440;&#x43e;&#x434;&#x443;&#x43a;&#x442;&#x430;"/>
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x440;&#x435;&#x430;&#x43b;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;. "/>
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43d;&#x435;&#x432;&#x435;&#x440;&#x43d;&#x43e;&#x439; &#x43f;&#x43e;&#x441;&#x442;&#x430;&#x43d;&#x43e;&#x432;&#x43a;&#x438; &#x442;&#x435;&#x445;&#x43d;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x43e;&#x433;&#x43e; &#x437;&#x430;&#x434;&#x430;&#x43d;&#x438;&#x44f;"/>
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x441;&#x43b;&#x43e;&#x436;&#x43d;&#x43e;&#x441;&#x442;&#x438;."/>
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43d;&#x435;&#x441;&#x43e;&#x43e;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x438;&#x44f;. "/>
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43e;&#x448;&#x438;&#x431;&#x43e;&#x43a; &#x43f;&#x43b;&#x430;&#x43d;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f; &#x441;&#x440;&#x43e;&#x43a;&#x43e;&#x432; &#x432;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x435;&#x43d;&#x438;&#x44f;"/>
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43d;&#x435;&#x441;&#x442;&#x430;&#x431;&#x438;&#x43b;&#x44c;&#x43d;&#x43e;&#x439; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b; &#x441;&#x43e;&#x431;&#x441;&#x442;&#x432;&#x435;&#x43d;&#x43d;&#x43e;&#x433;&#x43e; &#x43e;&#x431;&#x43e;&#x440;&#x443;&#x434;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f; &#x438; &#x43a;&#x430;&#x43d;&#x430;&#x43b;&#x43e;&#x432; &#x441;&#x432;&#x44f;&#x437;&#x438;"/>
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43d;&#x435;&#x43e;&#x43f;&#x43b;&#x430;&#x442;&#x44b; &#x432;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x435;&#x43d;&#x43d;&#x43e;&#x439; &#x440;&#x430;&#x431;&#x43e;&#x442;&#x44b;"/>
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43d;&#x435;&#x432;&#x435;&#x440;&#x43d;&#x43e;&#x433;&#x43e; &#x43e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x44f; &#x43a;&#x432;&#x430;&#x43b;&#x438;&#x444;&#x438;&#x43a;&#x430;&#x446;&#x438;&#x438; &#x43f;&#x435;&#x440;&#x441;&#x43e;&#x43d;&#x430;&#x43b;&#x430;."/>
+                                          <Data value="&#x41d;&#x435;&#x43e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x43d;&#x43e;&#x441;&#x442;&#x44c; &#x437;&#x430;&#x43a;&#x43e;&#x43d;&#x43e;&#x434;&#x430;&#x442;&#x435;&#x43b;&#x44c;&#x43d;&#x43e;&#x433;&#x43e; &#x438;&#x437;&#x43c;&#x435;&#x43d;&#x435;&#x43d;&#x438;&#x44f;"/>
+                                          <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43e;&#x446;&#x435;&#x43d;&#x43a;&#x438; &#x437;&#x430;&#x442;&#x440;&#x430;&#x442; &#x43d;&#x430; &#x43f;&#x440;&#x43e;&#x434;&#x432;&#x438;&#x436;&#x435;&#x43d;&#x438;&#x435;"/>
+                                        </Column>
+                                        <Column editable="true" title="&#x412;&#x435;&#x440;&#x43e;&#x44f;&#x442;&#x43d;&#x43e;&#x441;&#x442;&#x44c;" type="java.lang.Integer">
+                                          <Data value="10"/>
+                                          <Data value="90"/>
+                                          <Data value="20"/>
+                                          <Data value="70"/>
+                                          <Data value="80"/>
+                                          <Data value="40"/>
+                                          <Data value="30"/>
+                                          <Data value="20"/>
+                                          <Data value="60"/>
+                                          <Data value="10"/>
+                                          <Data value="10"/>
+                                        </Column>
+                                      </Table>
+                                    </Property>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Container class="javax.swing.JToolBar" name="jToolBar4">
+                              <Properties>
+                                <Property name="rollover" type="boolean" value="true"/>
+                              </Properties>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JButton" name="addRiskButton">
+                                  <Properties>
+                                    <Property name="icon" type="javax.swing.Icon" resourceKey="addRiskButton.icon"/>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                                    <Property name="verticalTextPosition" type="int" value="3"/>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addRiskButtonActionPerformed"/>
+                                  </Events>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="delRiskButton">
+                                  <Properties>
+                                    <Property name="icon" type="javax.swing.Icon" resourceKey="delRiskButton.icon"/>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                                    <Property name="verticalTextPosition" type="int" value="3"/>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="delRiskButtonActionPerformed"/>
+                                  </Events>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="analitPanel">
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                              <JTabbedPaneConstraints tabName="&#x410;&#x43d;&#x430;&#x43b;&#x438;&#x437; &#x438; &#x440;&#x430;&#x43d;&#x436;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;">
+                                <Property name="tabTitle" type="java.lang.String" resourceKey="analitPanel.TabConstraints.tabTitle"/>
+                              </JTabbedPaneConstraints>
+                            </Constraint>
+                          </Constraints>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                          <SubComponents>
+                            <Container class="javax.swing.JPanel" name="tblRangePanel">
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                                  <BorderConstraints direction="First"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout>
+                                <DimensionLayout dim="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <EmptySpace min="0" pref="539" max="32767" attributes="0"/>
+                                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="rangScrollPane" pref="519" max="32767" attributes="1"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                                <DimensionLayout dim="1">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <EmptySpace min="0" pref="154" max="32767" attributes="0"/>
+                                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="rangScrollPane" min="-2" pref="132" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                              </Layout>
+                              <SubComponents>
+                                <Container class="javax.swing.JScrollPane" name="rangScrollPane">
+                                  <AuxValues>
+                                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                                  </AuxValues>
+
+                                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                                  <SubComponents>
+                                    <Component class="javax.swing.JTable" name="rangTable">
+                                      <Properties>
+                                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                          <Table columnCount="4" rowCount="4">
+                                            <Column editable="false" title="&#x41d;&#x430;&#x438;&#x43c;&#x435;&#x43d;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;" type="java.lang.Object">
+                                              <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43d;&#x435;&#x441;&#x43e;&#x43e;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x438;&#x44f;."/>
+                                              <Data value="&#x420;&#x438;&#x441;&#x43a; &#x440;&#x435;&#x430;&#x43b;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;."/>
+                                              <Data value="&#x420;&#x438;&#x441;&#x43a; &#x441;&#x43b;&#x43e;&#x436;&#x43d;&#x43e;&#x441;&#x442;&#x438;."/>
+                                              <Data value="&#x420;&#x438;&#x441;&#x43a; &#x43d;&#x435;&#x432;&#x435;&#x440;&#x43d;&#x43e;&#x433;&#x43e; &#x43e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x438;&#x44f; &#x43a;&#x432;&#x430;&#x43b;&#x438;&#x444;&#x438;&#x43a;&#x430;&#x446;&#x438;&#x438; &#x43f;&#x435;&#x440;&#x441;&#x43e;&#x43d;&#x430;&#x43b;&#x430;."/>
+                                            </Column>
+                                            <Column editable="true" title="&#x412;&#x435;&#x440;&#x43e;&#x44f;&#x442;&#x43d;&#x43e;&#x441;&#x442;&#x44c;" type="java.lang.Object"/>
+                                            <Column editable="true" title="&#x412;&#x43e;&#x437;&#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x435;" type="java.lang.Object"/>
+                                            <Column editable="false" title="&#x420;&#x430;&#x43d;&#x433;" type="java.lang.Integer">
+                                              <Data value="3"/>
+                                              <Data value="6"/>
+                                              <Data value="6"/>
+                                              <Data value="4"/>
+                                            </Column>
+                                          </Table>
+                                        </Property>
+                                      </Properties>
+                                    </Component>
+                                  </SubComponents>
+                                </Container>
+                              </SubComponents>
+                            </Container>
+                            <Container class="javax.swing.JPanel" name="matixPanel">
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                                  <BorderConstraints direction="Center"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout>
+                                <DimensionLayout dim="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="nameFormLabel" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="printReportRisksButton" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="clearCartButton" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="saveCartButton" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="statusRiskLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="statusRiskTextField" pref="425" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="metodRiskLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="metodRiskComboBox" pref="363" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="triggerRiskLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="triggerRiskTextField" pref="381" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="SimLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="catRiskLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="PLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="vozLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace pref="68" max="32767" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="jScrollPane6" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                                                      <Component id="jScrollPane5" alignment="1" min="0" pref="0" max="32767" attributes="1"/>
+                                                      <Component id="jScrollPane3" alignment="1" min="0" pref="0" max="32767" attributes="1"/>
+                                                      <Component id="catRiskTextField" alignment="1" pref="382" max="32767" attributes="1"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                                <DimensionLayout dim="1">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="nameFormLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="statusRiskLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="statusRiskTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="metodRiskLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="metodRiskComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="catRiskLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="catRiskTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="PLabel" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="SimLabel" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jScrollPane5" min="-2" pref="38" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="vozLabel" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jScrollPane6" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="triggerRiskLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="triggerRiskTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="saveCartButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="clearCartButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="printReportRisksButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                </DimensionLayout>
+                              </Layout>
+                              <SubComponents>
+                                <Component class="javax.swing.JLabel" name="nameFormLabel">
+                                  <Properties>
+                                    <Property name="font" type="java.awt.Font" resourceKey="nameFormLabel.font"/>
+                                    <Property name="text" type="java.lang.String" resourceKey="nameFormLabel.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="statusRiskLabel">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="statusRiskLabel.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JTextField" name="statusRiskTextField">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="statusRiskTextField.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="metodRiskLabel">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="metodRiskLabel.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JComboBox" name="metodRiskComboBox">
+                                  <Properties>
+                                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                      <StringArray count="4">
+                                        <StringItem index="0" value="&#x41f;&#x440;&#x438;&#x43d;&#x44f;&#x442;&#x438;&#x435; &#x440;&#x438;&#x441;&#x43a;&#x430; "/>
+                                        <StringItem index="1" value="&#x423;&#x43a;&#x43b;&#x43e;&#x43d;&#x435;&#x43d;&#x438;&#x435; &#x43e;&#x442; &#x440;&#x438;&#x441;&#x43a;&#x430; "/>
+                                        <StringItem index="2" value="&#x41f;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x430; &#x440;&#x438;&#x441;&#x43a;&#x430; "/>
+                                        <StringItem index="3" value="&#x421;&#x43d;&#x438;&#x436;&#x435;&#x43d;&#x438;&#x435; &#x440;&#x438;&#x441;&#x43a;&#x430;"/>
+                                      </StringArray>
+                                    </Property>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="catRiskLabel">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="catRiskLabel.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JTextField" name="catRiskTextField">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="catRiskTextField.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JLabel" name="PLabel">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="PLabel.text"/>
+                                  </Properties>
+                                </Component>
+                                <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                                  <AuxValues>
+                                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                                  </AuxValues>
+
+                                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                                  <SubComponents>
+                                    <Component class="javax.swing.JTextPane" name="PTextPane">
+                                      <Properties>
+                                        <Property name="text" type="java.lang.String" resourceKey="PTextPane.text"/>
+                                      </Properties>
+                                    </Component>
+                                  </SubComponents>
+                                </Container>
+                                <Component class="javax.swing.JLabel" name="SimLabel">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="SimLabel.text"/>
+                                  </Properties>
+                                </Component>
+                                <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+                                  <AuxValues>
+                                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                                  </AuxValues>
+
+                                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                                  <SubComponents>
+                                    <Component class="javax.swing.JTextPane" name="simTextPane">
+                                      <Properties>
+                                        <Property name="text" type="java.lang.String" resourceKey="simTextPane.text"/>
+                                      </Properties>
+                                    </Component>
+                                  </SubComponents>
+                                </Container>
+                                <Component class="javax.swing.JLabel" name="vozLabel">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="vozLabel.text"/>
+                                  </Properties>
+                                </Component>
+                                <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+                                  <AuxValues>
+                                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                                  </AuxValues>
+
+                                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                                  <SubComponents>
+                                    <Component class="javax.swing.JTextPane" name="vozTextPane">
+                                      <Properties>
+                                        <Property name="text" type="java.lang.String" resourceKey="vozTextPane.text"/>
+                                      </Properties>
+                                    </Component>
+                                  </SubComponents>
+                                </Container>
+                                <Component class="javax.swing.JLabel" name="triggerRiskLabel">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="triggerRiskLabel.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JTextField" name="triggerRiskTextField">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="triggerRiskTextField.text"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="printReportRisksButton">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="printReportRisksButton.text"/>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printReportRisksButtonActionPerformed"/>
+                                  </Events>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="clearCartButton">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="clearCartButton.text"/>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearCartButtonActionPerformed"/>
+                                  </Events>
+                                </Component>
+                                <Component class="javax.swing.JButton" name="saveCartButton">
+                                  <Properties>
+                                    <Property name="text" type="java.lang.String" resourceKey="saveCartButton.text"/>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveCartButtonActionPerformed"/>
+                                  </Events>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="conclPanel">
+                  <Properties>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[452, 608]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x412;&#x44b;&#x432;&#x43e;&#x434;&#x44b;">
+                        <Property name="tabTitle" type="java.lang.String" resourceKey="conclPanel.TabConstraints.tabTitle"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                    <Property name="columns" type="int" value="3"/>
+                    <Property name="horizontalGap" type="int" value="1"/>
+                    <Property name="rows" type="int" value="2"/>
+                    <Property name="verticalGap" type="int" value="1"/>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="chartPanel">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" resourceKey="chartPanel.background"/>
+                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[200, 300]"/>
+                        </Property>
+                        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+                        <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+                      </Properties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JButton" name="calcResultDiagramButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="calcResultDiagramButton.text"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="calcResultDiagramButtonActionPerformed"/>
+                          </Events>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                              <BorderConstraints direction="First"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                        <Container class="javax.swing.JScrollPane" name="chartScrollPane">
+                          <Properties>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[200, 200]"/>
+                            </Property>
+                            <Property name="wheelScrollingEnabled" type="boolean" value="false"/>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                              <BorderConstraints direction="Center"/>
+                            </Constraint>
+                          </Constraints>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel8">
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                      <SubComponents>
+                        <Container class="javax.swing.JScrollPane" name="costsYearScrollPane7">
+                          <Properties>
+                            <Property name="wheelScrollingEnabled" type="boolean" value="false"/>
+                          </Properties>
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                              <BorderConstraints direction="Center"/>
+                            </Constraint>
+                          </Constraints>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTable" name="costsYearTable7">
+                              <Properties>
+                                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                  <Table columnCount="3" rowCount="7">
+                                    <Column editable="false" title="&#x41f;&#x43e;&#x43a;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43b;&#x44c;" type="java.lang.String">
+                                      <Data value="&#x41e;&#x431;&#x449;&#x438;&#x435; &#x437;&#x430;&#x442;&#x440;&#x430;&#x442;&#x44b; (&#x43f;&#x440;&#x438;&#x432;&#x435;&#x434;&#x435;&#x43d;&#x43d;&#x430;&#x44f; &#x441;&#x442;&#x43e;&#x438;&#x43c;&#x43e;&#x441;&#x442;&#x44c;, PV)"/>
+                                      <Data value="&#x41e;&#x431;&#x449;&#x430;&#x44f; &#x432;&#x44b;&#x433;&#x43e;&#x434;&#x430; (&#x43f;&#x440;&#x438;&#x432;&#x435;&#x434;&#x435;&#x43d;&#x43d;&#x430;&#x44f; &#x441;&#x442;&#x43e;&#x438;&#x43c;&#x43e;&#x441;&#x442;&#x44c;, PV)"/>
+                                      <Data value="NPV"/>
+                                      <Data value="NPV &#x43d;&#x430; &#x441;&#x43e;&#x442;&#x440;&#x443;&#x434;&#x43d;&#x438;&#x43a;&#x430;"/>
+                                      <Data value="ROI (&#x437;&#x430; &#x432;&#x435;&#x441;&#x44c; &#x43f;&#x435;&#x440;&#x438;&#x43e;&#x434;)"/>
+                                      <Data value="&#x412;&#x44b;&#x433;&#x43e;&#x434;&#x430; &#x432; &#x43c;&#x435;&#x441;&#x44f;&#x446;, PV"/>
+                                      <Data value="&#x41f;&#x435;&#x440;&#x438;&#x43e;&#x434; &#x43e;&#x43a;&#x443;&#x43f;&#x430;&#x435;&#x43c;&#x43e;&#x441;&#x442;&#x438;, &#x43c;&#x435;&#x441;&#x44f;&#x446;&#x435;&#x432;"/>
+                                    </Column>
+                                    <Column editable="false" title="&#x417;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x438;&#x435;" type="java.lang.Float">
+                                      <Data value="28000.0"/>
+                                      <Data value="165855.53"/>
+                                      <Data value="137855.53"/>
+                                      <Data value="27571.11"/>
+                                      <Data value="252.0"/>
+                                      <Data value="4607.1"/>
+                                      <Data value="6.08"/>
+                                    </Column>
+                                    <Column editable="false" title="&#x417;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x438;&#x435; (&#x441; &#x443;&#x447;&#x435;&#x442;&#x43e;&#x43c; &#x440;&#x438;&#x441;&#x43a;&#x430;)" type="java.lang.Float">
+                                      <Data value="28000.0"/>
+                                      <Data value="154191.28"/>
+                                      <Data value="126191.28"/>
+                                      <Data value="25238.26"/>
+                                      <Data value="551.0"/>
+                                      <Data value="4283.09"/>
+                                      <Data value="6.54"/>
+                                    </Column>
+                                  </Table>
+                                </Property>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JMenuBar" name="menuBar">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fileMenu.text"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="newMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="analytics_it.Analytics_ITView" id="showNewProjJDialog" methodName="showNewProjJDialog"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="newMenuItem.text"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="openMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="analytics_it.Analytics_ITView" id="showOpenProjJDialog" methodName="showOpenProjJDialog"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="openMenuItem.text"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="saveMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="org.jdesktop.application.Application" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="saveMenuItem.text"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator1">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="optionMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="analytics_it.Analytics_ITView" id="showPropJDialog" methodName="showPropJDialog"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="optionMenuItem.text"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="printMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+P"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="printMenuItem.text"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printMenuItemActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator2">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="org.jdesktop.application.Application" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="exitMenuItem.text"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="helpMenu.text"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="analytics_it.Analytics_ITView" id="showAboutBox" methodName="showAboutBox"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="aboutMenuItem.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="aboutMenuItem.toolTipText"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem1">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="analytics_it.Analytics_ITView" id="showAboutBox" methodName="showAboutBox"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="aboutMenuItem1.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="aboutMenuItem1.toolTipText"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="statusPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="statusPanelSeparator" alignment="0" pref="720" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="statusMessageLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="700" max="32767" attributes="0"/>
+                  <Component id="statusAnimationLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="statusPanelSeparator" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="statusMessageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="statusAnimationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JSeparator" name="statusPanelSeparator">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusMessageLabel">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="false"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="2"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusAnimationLabel">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="false"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="2"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="mainPanel"/>
+    </Property>
+    <Property name="menuBar" type="javax.swing.JMenuBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="menuBar"/>
+    </Property>
+    <Property name="statusBar" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="statusPanel"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,102,0,0,2,-48"/>
+  </AuxValues>
+</Form>
