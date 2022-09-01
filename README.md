@@ -5,7 +5,7 @@
 
 Данное приложение является учебным в рамках университетского курса.
 
-# Стек
-Java (NetBeans IDE)
-СУБД JavaDB (DERBY)
-UML
+## Стек
+- Java (NetBeans IDE)
+- СУБД JavaDB (DERBY)
+- UML
